@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="carousel.css" />
+    <title>Carousel Component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="carousel">
+        <button
+          type="button"
+          title="Toggle content visibility"
+          class="icon-container left"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-left"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+              d="M328 112L184 256l144 144"
+            />
+          </svg>
+        </button>
+        <button
+          type="button"
+          title="Toggle content visibility"
+          class="icon-container right"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-right"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+              d="M184 112l144 144-144 144"
+            />
+          </svg>
+        </button>
+        <section class="hidden-box">
+          <img src="1.jpg" alt="" />
+
+          <article class="about">
+            <q
+              >The amount of time I've been able to save with Airtable has been
+              immeasurable, and te more we've worked with it, te more
+              applications we've found. Now the first question I ask is: How do
+              we Airtable this?</q
+            >
+            <div class="author">
+              <p class="name">Rahul Kothari</p>
+              <p class="company-position">Senior product Markecting Manager</p>
+              <p class="logo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon logo-icon"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M332.41 310.59a115 115 0 00-152.8 0M393.46 249.54a201.26 201.26 0 00-274.92 0M447.72 182.11a288 288 0 00-383.44 0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                  <path d="M256 416a32 32 0 1132-32 32 32 0 01-32 32z" />
+                </svg>
+                <span>Frame.io</span>
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="open">
+          <img src="2.jpg" alt="" />
+
+          <article class="about">
+            <q
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur velit nam repellat illum fuga doloribus!</q
+            >
+            <div class="author">
+              <p class="name">Recusandae Voluptatum</p>
+              <p class="company-position">
+                Dignissimos Nesciunt Recusandae Voluptatum
+              </p>
+              <p class="logo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon logo-icon"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M332.41 310.59a115 115 0 00-152.8 0M393.46 249.54a201.26 201.26 0 00-274.92 0M447.72 182.11a288 288 0 00-383.44 0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                  <path d="M256 416a32 32 0 1132-32 32 32 0 01-32 32z" />
+                </svg>
+                <span>Frame.io</span>
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="hidden-box">
+          <img src="3.jpg" alt="" />
+
+          <article class="about">
+            <q
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              dolor, vel corporis dicta quasi exercitationem architecto?</q
+            >
+            <div class="author">
+              <p class="name">Magnam dolor</p>
+              <p class="company-position">Voluptate Omnis Obcaecati Debitis</p>
+              <p class="logo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon logo-icon"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M332.41 310.59a115 115 0 00-152.8 0M393.46 249.54a201.26 201.26 0 00-274.92 0M447.72 182.11a288 288 0 00-383.44 0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                  <path d="M256 416a32 32 0 1132-32 32 32 0 01-32 32z" />
+                </svg>
+                <span>Frame.io</span>
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="hidden-box">
+          <img src="4.jpg" alt="" />
+
+          <article class="about">
+            <q
+              >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+              adipisci maiores animi! Praesentium iste sapiente explicabo</q
+            >
+            <div class="author">
+              <p class="name">Autem Adipisci</p>
+              <p class="company-position">Facilis Illum Porro Aut Sint</p>
+              <p class="logo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon logo-icon"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M332.41 310.59a115 115 0 00-152.8 0M393.46 249.54a201.26 201.26 0 00-274.92 0M447.72 182.11a288 288 0 00-383.44 0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                  <path d="M256 416a32 32 0 1132-32 32 32 0 01-32 32z" />
+                </svg>
+                <span>Frame.io</span>
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <div class="dots">
+          <div class="icon-dots">&nbsp;</div>
+          <div class="icon-dots filled">&nbsp;</div>
+          <div class="icon-dots">&nbsp;</div>
+          <div class="icon-dots">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Function to update the "filled" class to the specified position
+      function updateFilledPosition(position) {
+        // Get all elements with the .icon-dots class
+        const iconDots = document.querySelectorAll(".icon-dots");
+
+        // Remove the "filled" class from all elements
+        iconDots.forEach((element) => {
+          element.classList.remove("filled");
+        });
+
+        // Ensure the position is within bounds
+        if (position >= 0 && position < iconDots.length) {
+          // Add the "filled" class to the new position
+          iconDots[position].classList.add("filled");
+        } else {
+          console.error("Position out of bounds");
+        }
+      }
+
+      function navigateToNextSection() {
+        // Get all the sections
+        const sections = document.querySelectorAll("section");
+
+        // Find the section with the "open" class
+        const currentOpenIndex = Array.from(sections).findIndex((section) =>
+          section.classList.contains("open")
+        );
+
+        // Check if the current "open" section is the last one
+        if (currentOpenIndex === sections.length - 1) {
+          return; // Do nothing if it's the last section
+        }
+
+        // Get the right sibling (immediate next section)
+        const nextSection = sections[currentOpenIndex + 1];
+
+        if (nextSection) {
+          // Update classes for the current section
+          sections[currentOpenIndex].classList.remove("open");
+          sections[currentOpenIndex].classList.add("hidden-box");
+
+          // Update classes for the next section
+          nextSection.classList.add("open");
+          nextSection.classList.remove("hidden-box");
+
+          // Update the filled position for the new section index
+          updateFilledPosition(currentOpenIndex + 1);
+        }
+      }
+
+      function navigateToPreviousSection() {
+        // Get all the sections
+        const sections = document.querySelectorAll("section");
+
+        // Find the section with the "open" class
+        const currentOpenIndex = Array.from(sections).findIndex((section) =>
+          section.classList.contains("open")
+        );
+
+        // Check if the current "open" section is the first one
+        if (currentOpenIndex === 0) {
+          return; // Do nothing if it's the first section
+        }
+
+        // Get the left sibling (immediate previous section)
+        const previousSection = sections[currentOpenIndex - 1];
+
+        if (previousSection) {
+          // Update classes for the current section
+          sections[currentOpenIndex].classList.remove("open");
+          sections[currentOpenIndex].classList.add("hidden-box");
+
+          // Update classes for the previous section
+          previousSection.classList.add("open");
+          previousSection.classList.remove("hidden-box");
+
+          // Update the filled position for the new section index
+          updateFilledPosition(currentOpenIndex - 1);
+        }
+      }
+
+      // Attach the functions to the buttons' onclick events
+      document.querySelector(".left").onclick = navigateToPreviousSection;
+      document.querySelector(".right").onclick = navigateToNextSection;
+    </script>
+  </body>
+</html>

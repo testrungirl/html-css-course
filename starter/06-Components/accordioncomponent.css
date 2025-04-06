@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #5f3dc4;
+  --grey-color: #212529;
+}
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+body {
+  font-family: "NotoSans", sans-serif;
+  color: var(--grey-color);
+}
+h2 {
+  line-height: 1.7;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  grid-column: 2/3;
+  color: #343a40;
+}
+svg {
+  height: 18px;
+  width: 18px;
+  stroke: var(--main-color);
+}
+button {
+  background-color: white;
+  border: 0;
+}
+button:hover,
+button:active {
+  cursor: pointer;
+}
+ul {
+  padding: 0 16px;
+  color: #868e96;
+}
+li span {
+  position: relative;
+  left: 10px;
+}
+.container {
+  margin: 100px auto;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.03),
+    -5px -5px 10px rgba(0, 0, 0, 0.03);
+  width: 700px;
+  padding: 16px;
+}
+
+.header {
+  margin: 24px;
+  /* padding: 16px; */
+  display: grid;
+  column-gap: 10px;
+  grid-auto-flow: column;
+  grid-template-columns: 50px 1fr 100px;
+  justify-items: start;
+  justify-content: center;
+}
+
+.card {
+  margin: 24px;
+  padding: 16px 0;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.078),
+    -5px -5px 10px rgba(0, 0, 0, 0.078);
+}
+.card header {
+  display: grid;
+  column-gap: 10px;
+  grid-auto-flow: column;
+  grid-template-columns: 50px 1fr 100px;
+  justify-items: start;
+  align-content: center;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+}
+
+.card .count {
+  color: #868e96;
+  padding-left: 16px;
+}
+.card .title {
+}
+.icon-chevron-up {
+  display: none;
+}
+
+.icon-chevron-down {
+  display: inline;
+}
+
+.card article {
+  margin-left: 60px;
+  margin-right: 110px;
+  margin: 20px 110px 0px 60px;
+  line-height: 1.5;
+  font-size: 18px;
+  display: none;
+}
+.card article > * {
+  margin-bottom: 16px;
+}
+.card-opened {
+  color: var(--main-color);
+}
+.card-opened .count {
+  color: var(
+    --main-color
+  ) !important; /* Ensure it inherits the desired color */
+}
+
+.colored-border {
+  border-top: 5px solid var(--main-color);
+}

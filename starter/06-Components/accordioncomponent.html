@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="accordioncomponent.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h2>What we do (so you don't have to)</h2>
+      </header>
+      <section class="card">
+        <header>
+          <span class="count">01</span>
+          <span class="title">Project net worth over time</span>
+          <button
+            class="icon toggle-button"
+            type="button"
+            title="Toggle content visibility"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon-chevron-up"
+              onclick="toggleElements(this)"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon-chevron-down"
+              onclick="toggleElements(this)"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </header>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            eligendi illo laborum eveniet magnam, quae molestias obcaecati amet
+            illum saepe, tenetur deserunt fugit, enim officiis atque asperiores
+            tempore eos earum.
+          </p>
+          <ul>
+            <li><span>Maxime, tenetur nulla, temporibus unde</span></li>
+            <li><span> Atque natus excepturi dolore aspernatur amet</span></li>
+            <li><span> Sapiente asperiores accusantium laudantium</span></li>
+            <li><span> Corporis doloremque iure cupiditate odio</span></li>
+            <li><span> Cum nemo voluptates nobis repellendus</span></li>
+          </ul>
+        </article>
+      </section>
+      <section class="card">
+        <header>
+          <span class="count">02</span>
+          <span class="title">Incoporate the essential data</span>
+          <button
+            class="icon toggle-button"
+            type="button"
+            title="Toggle content visibility"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon-chevron-up"
+              onclick="toggleElements(this)"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon-chevron-down"
+              onclick="toggleElements(this)"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </header>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            exercitationem non sunt ullam nihil? Quas repudiandae, dignissimos
+            quibusdam delectus impedit et rem, architecto, omnis tempora eaque
+            veritatis possimus distinctio quis.
+          </p>
+          <ul>
+            <li><span>Sequi perferendis quam voluptatum</span></li>
+            <li><span>Reprehenderit odit, magni inventore ratione</span></li>
+            <li>
+              <span>eveniet commodi est quia nisi voluptatibusratione</span>
+            </li>
+            <li><span>mollitia nobis nesciunt deserunt veniam</span></li>
+            <li><span>dolor sit amet consectetur adipisicing elit</span></li>
+          </ul>
+        </article>
+      </section>
+      <section class="card">
+        <header>
+          <span class="count">03</span>
+          <span class="title">Reflect your all-in costs</span>
+          <button
+            class="icon toggle-button"
+            type="button"
+            title="Toggle content visibility"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon-chevron-up"
+              onclick="toggleElements(this)"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon-chevron-down"
+              onclick="toggleElements(this)"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </header>
+        <article>
+          <p>
+            eligendi illo laborum eveniet magnam, quae molestias obcaecati amet
+            illum saepe, tenetur deserunt fugit, enim officiis atque asperiores
+            tempore eos earum.
+          </p>
+          <ul>
+            <li>
+              <span
+                >Inventore quidem facilis quibusdam impedit nullaratione</span
+              >
+            </li>
+            <li>
+              <span
+                >rerum repudiandae veniam hic voluptatibus
+                assumendaratione</span
+              >
+            </li>
+            <li>
+              <span>quidem modi molestias necessitatibus doloribusratione</span>
+            </li>
+            <li><span>repellendus, quos excepturi. Amet, quasi</span></li>
+          </ul>
+        </article>
+      </section>
+    </div>
+    <script>
+      function toggleElements(svg) {
+        // Find the closest .card parent container
+        const cardContainer = svg.closest(".card");
+        if (cardContainer) {
+          // Toggle SVGs
+          const svgA = cardContainer.querySelector(".icon-chevron-up");
+          const svgB = cardContainer.querySelector(".icon-chevron-down");
+
+          if (svgA && svgB) {
+            if (svg === svgA) {
+              svgA.style.display = "none";
+              svgB.style.display = "inline";
+            } else if (svg === svgB) {
+              svgA.style.display = "inline";
+              svgB.style.display = "none";
+            }
+          }
+
+          // Toggle article visibility
+          const article = cardContainer.querySelector("article");
+          const header = cardContainer.querySelector("header");
+          if (article && header) {
+            if (svgA.style.display === "inline") {
+              article.style.display = "block"; // Show the article
+              header.classList.add("card-opened"); // Add 'card-opened' class
+              cardContainer.classList.add("colored-border"); // Add 'colored-border' class
+            } else {
+              article.style.display = "none"; // Hide the article
+              header.classList.remove("card-opened"); // Remove 'card-opened' class
+              cardContainer.classList.remove("colored-border"); // Remove 'colored-border' class
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
